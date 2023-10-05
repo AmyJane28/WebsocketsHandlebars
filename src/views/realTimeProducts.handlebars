@@ -1,0 +1,34 @@
+<h3>AGREGAR PRODUCTO</h3>
+
+<form id="formAgregarProducto">
+    Title: <input type="string" name="title" id="title" />
+    Description: <input type="string" name="description" id="description" />
+    Code: <input type="string" name="code" id="code" />
+    Price: <input type="number" name="price" id="price" />
+    Status: <input type="boolean" name="status" id="status" />
+    Stock: <input type="number" name="stock" id="stock" />
+    Category <input type="string" name="category" id="category" />
+    Thumbnails <input type="string" name="thumbnails" id="thumbnails" />
+    Id <input type="number" name="id" id="id" />
+    <input type="submit" value="SEND">
+</form>
+
+<br> </br>
+
+<h3>ELIMINAR PRODUCTO</h3>
+<form id="FormEliminarProducto">
+
+  Title: <input type="string" name="title" id="titleDelete" />
+  Id: <input type="string" name="Id" id="idDelete" />
+  <input type="submit" value="ELIMINAR" />
+
+</form>
+
+<br></br>
+
+<h2>LISTA DE PRODUCTOS</h2>
+<div id="divRealTimeProduct"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
+
